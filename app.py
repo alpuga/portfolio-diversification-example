@@ -49,6 +49,3 @@ def standard_deviation_of_portfolios(filename):
         sigma_cell_three.value = sigma_three
 
     wb.save('portfolio_diversification.xlsx')
-
-
-standard_deviation_of_portfolios('portfolio_diversification.xlsx')
