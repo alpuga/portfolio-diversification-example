@@ -17,7 +17,7 @@ def expected_returns(filename):
         expected_return_cell_two.value = expected_return
         expected_return_cell_three.value = expected_return
 
-    wb.save('portfolio_diversification.xlsx')
+    wb.save(filename)
 
 
 def standard_deviation_of_portfolios(filename):
@@ -48,4 +48,4 @@ def standard_deviation_of_portfolios(filename):
         sigma_cell_two.value = sigma_two
         sigma_cell_three.value = sigma_three
 
-    wb.save('portfolio_diversification.xlsx')
+    wb.save(filename)
